@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Web App</title>
+    <meta name="description" content="A terminal style web app with various utilities.">
+    <meta name="keywords" content="terminal, web app, calculator, base conversion, area measurement, time, weather">
+    <meta name="author" content="Kanad Kapil">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="radial-gradient-bg">
+    <div id="terminal" class="container shadow1">
+        <div id="output"></div>
+        <div id="inputLine">
+            <span>&gt;&nbsp;</span>
+            <input type="text" id="commandInput" onkeypress="handleCommand(event)">
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer shadow1">
+                <p>Don't Hesitate... Just go for it... Keep letter in small, cz it's a terminal.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
